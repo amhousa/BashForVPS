@@ -35,3 +35,5 @@ Just pull the bash git repository.
 cd ~/bash
 g pl
 ```
+
+https://github.com/AliMD/1bash/
