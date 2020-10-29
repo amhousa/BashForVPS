@@ -1,10 +1,10 @@
 #!/bin/bash
 
 if [ "$BASH" ]; then
-  export ONE_BASH=~/bash
+  export KIA_BASH=~/bash
 
-  if [ -f $ONE_BASH/bash.sh ]; then
-    . $ONE_BASH/bash.sh
+  if [ -f $KIA_BASH/bash.sh ]; then
+    . $KIA_BASH/bash.sh
   fi
 
   # Uncoment the following lines if you want to load ~/.bashrc too

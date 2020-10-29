@@ -11,16 +11,16 @@ case $- in
     *) return;;
 esac
 
-if [ -z "$ONE_BASH" ]; then
-  export ONE_BASH=~/bash
+if [ -z "$KIA_BASH" ]; then
+  export KIA_BASH=~/bash
 fi
 
-if [ ! -d "$ONE_BASH/bash.d" ]; then
-  echo "$ONE_BASH/bash.d not found"
+if [ ! -d "$KIA_BASH/bash.d" ]; then
+  echo "$KIA_BASH/bash.d not found"
   return
 fi
 
-for i in $ONE_BASH/bash.d/*.sh; do
+for i in $KIA_BASH/bash.d/*.sh; do
   if [ -r $i ]; then
     . $i
   fi
