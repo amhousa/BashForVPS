@@ -6,12 +6,13 @@ Linux Bash Customization
 
 ```bash
 # clone project
-git clone https://github.com/AminKiani/bash.git ~/bash
+export KIA_BASH=~/bash
+git clone https://github.com/AminKiani/bash.git $KIA_BASH
 
 # copy user config
-cp -av ~/bash/inputrc ~/.inputrc
-cp -av ~/bash/bash_profile ~/.bash_profile
-cp -aiv ~/bash/gitconfig ~/.gitconfig
+cp -av $KIA_BASH/inputrc ~/.inputrc
+cp -av $KIA_BASH/bash_profile ~/.bash_profile
+cp -aiv $KIA_BASH/gitconfig ~/.gitconfig
 
 # Edit yout name/email in git config
 nano ~/.gitconfig
