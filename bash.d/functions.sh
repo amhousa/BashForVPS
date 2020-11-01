@@ -157,3 +157,8 @@ nameserver 178.22.122.100
 nameserver 94.232.174.194
 EOF
 }
+function antitahrim {
+cat << EOF > /etc/resolv.conf
+nameserver 104.171.124.78
+EOF
+}
