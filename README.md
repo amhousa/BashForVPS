@@ -1,18 +1,20 @@
-# Bash v2.0
+# Bash v2.0.1
 
-Linux Bash Customization
+LBCV (Linux Bash Customization For VPS 😍)
+
+Forked from [Amin Kiani](https://github.com/AminKiani/Bash)
 
 ## Install
 
 ```bash
 # clone project
-export KIA_BASH=~/bash
-git clone https://github.com/AminKiani/bash.git $KIA_BASH
+export ASLM_BASH=~/bash
+git clone https://github.com/amhousa/BashForVPS.git $ASLM_BASH
 
 # copy user config
-cp -av $KIA_BASH/inputrc ~/.inputrc
-cp -av $KIA_BASH/bash_profile ~/.bash_profile
-cp -aiv $KIA_BASH/gitconfig ~/.gitconfig
+cp -av $ASLM_BASH/inputrc ~/.inputrc
+cp -av $ASLM_BASH/bash_profile ~/.bash_profile
+cp -aiv $ASLM_BASH/gitconfig ~/.gitconfig
 
 # Edit yout name/email in git config
 nano ~/.gitconfig

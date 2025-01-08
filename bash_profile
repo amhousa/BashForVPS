@@ -1,10 +1,10 @@
 #!/bin/bash
 
 if [ "$BASH" ]; then
-  export KIA_BASH=~/bash
+  export ASLM_BASH=~/bash
 
-  if [ -f $KIA_BASH/bash.sh ]; then
-    . $KIA_BASH/bash.sh
+  if [ -f $ASLM_BASH/bash.sh ]; then
+    . $ASLM_BASH/bash.sh
   fi
 
   # Uncoment the following lines if you want to load ~/.bashrc too

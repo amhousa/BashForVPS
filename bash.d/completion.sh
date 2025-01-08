@@ -5,7 +5,7 @@
 # sources /etc/bash.bashrc).
 if ! shopt -oq posix; then
 
-  for i in $KIA_BASH/bash.d/completion.d/*; do
+  for i in $ASLM_BASH/bash.d/completion.d/*; do
     if [ -r $i ]; then
       . $i
     fi

@@ -3,8 +3,8 @@
 if type dircolors > /dev/null 2>&1; then
   if [ -f ~/.dircolors ]; then
     eval "$( dircolors -b ~/.dircolors )"
-  elif [ -f $KIA_BASH/dircolors ]; then
-    eval "$( dircolors -b $KIA_BASH/dircolors )"
+  elif [ -f $ASLM_BASH/dircolors ]; then
+    eval "$( dircolors -b $ASLM_BASH/dircolors )"
   fi
 fi
 

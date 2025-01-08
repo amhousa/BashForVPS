@@ -5,6 +5,6 @@
 
 if [ -f ~/.bash_logo ]; then
   cat ~/.bash_logo
-elif [ -f $KIA_BASH/logo.txt ]; then
-  cat $KIA_BASH/logo.txt
+elif [ -f $ASLM_BASH/logo.txt ]; then
+  cat $ASLM_BASH/logo.txt
 fi

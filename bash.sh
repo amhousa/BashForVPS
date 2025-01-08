@@ -11,16 +11,16 @@ case $- in
     *) return;;
 esac
 
-if [ -z "$KIA_BASH" ]; then
-  export KIA_BASH=~/bash
+if [ -z "$ASLM_BASH" ]; then
+  export ASLM_BASH=~/bash
 fi
 
-if [ ! -d "$KIA_BASH/bash.d" ]; then
-  echo "$KIA_BASH/bash.d not found"
+if [ ! -d "$ASLM_BASH/bash.d" ]; then
+  echo "$ASLM_BASH/bash.d not found"
   return
 fi
 
-for i in $KIA_BASH/bash.d/*.sh; do
+for i in $ASLM_BASH/bash.d/*.sh; do
   if [ -r $i ]; then
     . $i
   fi
